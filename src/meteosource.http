@@ -1,0 +1,2 @@
+###
+GET https://www.meteosource.com/api/v1/free/point?place_id=mosnov-3070292&timezone=Europe/Prague&language=en&units=metric&key=2d6go4qwz15xwx1m3qnar8gcpqlozj5vkxpxmnkh

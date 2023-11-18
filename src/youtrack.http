@@ -1,0 +1,5 @@
+###
+GET {{YT_APIURL}}/admin/telemetry?fields=databaseSize,uptime,startedTime,textIndexSize
+Authorization: Bearer {{YT_TOKEN}}
+Accept: application/json
+Content-Type: application/json

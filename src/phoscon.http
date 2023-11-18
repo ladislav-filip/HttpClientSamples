@@ -1,0 +1,20 @@
+###
+GET http://192.168.0.188:8880/api/E1D7201ABB/sensors
+
+
+###
+POST http://192.168.0.188:8880/api/E1D7201ABB/sensors
+Content-Type: application/json
+
+{
+  "config": {
+    "on": true,
+    "reachable": true
+  },
+  "manufacturername": "LUMI",
+  "modelid": "lumi.weather",
+  "name": "Temp01",
+  "swversion": "1.0",
+  "type": "ZHATemperature",
+  "uniqueid": "54:ef:44:10:00:91:a4:fb-04-0001"
+}

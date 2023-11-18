@@ -1,0 +1,12 @@
+###
+GET https://api.openweathermap.org/data/2.5/weather?appid={{APPID}}&q=Pribor,cz&units=metric
+Content-Type: application/json
+
+> {%
+    client.test("Request executed successfully", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+        // client.global.set("preferredBinTypeId", response.body.data[0].preferredBinTypeId);
+        // client.global.set("detailProductId", response.body.data[0].id);
+        client.log(response.body.main.temp);
+    });
+%}
